@@ -1,5 +1,6 @@
 # CIFAR-10 Image Classification: A Transfer Learning Approach with ResNet50
 
+<img width="862" height="349" alt="image" src="https://github.com/user-attachments/assets/07123722-5044-4b26-9156-52fdb7cd0e0e" />
 
 
 ## 📌 Project Overview
