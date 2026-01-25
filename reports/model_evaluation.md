@@ -89,4 +89,27 @@ The following table breaks down the performance metrics for the most significant
 ---
 
 ### 🛠️ Evaluation Summary
-As a GitHub documentation expert, I recommend including the classification report in the repository to provide transparency regarding the model's bias toward structured objects (vehicles) versus organic entities (animals).
+I recommend including the classification report in the repository to provide transparency regarding the model's bias toward structured objects (vehicles) versus organic entities (animals).
+
+
+## 📈 Learning Curves
+
+
+![alt text](image-1.png)
+
+The training process was meticulously monitored over a duration of 10 epochs to evaluate the convergence characteristics and behavioral patterns of the model. The following graphical representations illustrate the relationship between **Training vs. Validation Loss** and **Training vs. Validation Accuracy**, providing a transparent view of the model's optimization journey.
+
+
+
+---
+
+### 🔍 Key Observations
+
+* **Model Convergence:** The loss function demonstrates a consistent and steady decline across the training phase, achieving stabilization around the **8th epoch**. This indicates that the model successfully reached a state of convergence, where further training on the current architecture yielded diminishing returns in error reduction.
+* **Generalization Performance:** A critical observation is the narrow margin maintained between the training and validation accuracy curves. This minimal gap suggests that the model generalizes effectively to unseen data, successfully avoiding the common pitfall of **overfitting**, which is often prevalent when using deep architectures like ResNet50 on low-resolution datasets.
+* **Training Stability:** Throughout the 10 epochs, the validation loss remained remarkably smooth with no significant sharp spikes or oscillations. This confirms that the chosen hyper-parameters—specifically the **Adam optimizer** and the assigned learning rate—were highly effective in maintaining a stable and controlled gradient descent.
+
+---
+
+### 🧬 Optimization Analysis
+These curves serve as empirical evidence of the model's reliability. The stability of the **Phase 1 (Feature Extraction)** training confirms that the pre-trained ImageNet weights provided a robust foundation, allowing the custom classification head to align with the CIFAR-10 feature space without destabilizing the network's internal representations.
