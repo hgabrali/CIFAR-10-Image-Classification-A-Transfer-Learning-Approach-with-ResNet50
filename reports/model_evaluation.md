@@ -4,7 +4,7 @@
 <img width="1112" height="624" alt="image" src="https://github.com/user-attachments/assets/4aa7a7c8-8974-4238-b1cf-ed673c4a2416" />
 
 
-<img width="697" height="735" alt="image" src="https://github.com/user-attachments/assets/4028acfb-5beb-492a-89f0-8ab93956f12d" />
+
 
 
 ## Project Scope
