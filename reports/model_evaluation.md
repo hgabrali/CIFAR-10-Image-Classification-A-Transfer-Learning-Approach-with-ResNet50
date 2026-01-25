@@ -113,3 +113,27 @@ The training process was meticulously monitored over a duration of 10 epochs to 
 
 ### 🧬 Optimization Analysis
 These curves serve as empirical evidence of the model's reliability. The stability of the **Phase 1 (Feature Extraction)** training confirms that the pre-trained ImageNet weights provided a robust foundation, allowing the custom classification head to align with the CIFAR-10 feature space without destabilizing the network's internal representations.
+
+
+## ⚖️ SWOT Analysis
+
+To provide a comprehensive evaluation of the project's strategic positioning, the following **SWOT Analysis** outlines the internal strengths and weaknesses of the ResNet50-based classification model, alongside the external opportunities for growth and potential threats to its performance.
+
+
+
+---
+
+### 📊 Comparative Strategic Matrix
+
+| Analysis Area | Problems & Components | Technical Detail & Importance | Solution Methods | Tools & Tests |
+| :--- | :--- | :--- | :--- | :--- |
+| **Strengths** | Model Performance & Architecture | Achieved a high accuracy of **92%** leveraging Transfer Learning. The deep residual architecture ensures highly effective feature extraction. | ResNet50 Pre-trained Weights | Accuracy Metric / Epoch Convergence (10 epochs) |
+| **Weaknesses** | Classification Limits & Resource Usage | Performance degradation in visually similar classes (e.g., **Cat vs. Dog**). High sensitivity to background noise and significant computational cost. | Model Architecture Review | Confusion Matrix / Hardware Benchmarking |
+| **Opportunities** | Optimization & Deployment | Potential for improved generalization through **Data Augmentation**. Capability for unfreezing layers for further fine-tuning and web service deployment. | Rotation, Flipping, & API Integration | Validation Accuracy Trends |
+| **Threats** | Environmental & Scaling Risks | High risk of **Overfitting** without additional regularization. Potential for **Domain Shift** when applied to high-resolution, real-world imagery. | Regularization (Dropout/L2) | Cross-Dataset Validation |
+
+---
+
+### 📝 Strategic Conclusion
+
+This analysis highlights that while the **ResNet50** architecture provides a formidable foundation for classification, the model's primary area for growth lies in its handling of low-resolution semantic similarities. Future iterations should focus on mitigating the "Weaknesses" by implementing the "Opportunities" listed above, specifically focusing on **Data Augmentation** to bridge the gap between training performance and real-world robustness.
