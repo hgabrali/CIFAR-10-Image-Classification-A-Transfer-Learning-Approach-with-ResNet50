@@ -32,7 +32,7 @@ The model utilizes a **Transfer Learning** strategy divided into two main compon
     * `GlobalAveragePooling2D` to reduce dimensionality.
     * `Dense Layer` (128 neurons, ReLU).
     * `Dense Layer` (64 neurons, ReLU).
-    * `Output Layer` (10 neurons, Softmax).
+    * `Output Layer` (10 neurons, Softmax). 
 
 ---
 
