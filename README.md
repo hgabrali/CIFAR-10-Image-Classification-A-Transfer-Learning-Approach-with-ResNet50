@@ -1,10 +1,5 @@
 # CIFAR-10 Image Classification: A Transfer Learning Approach with ResNet50
-
-# Sample Model Predictions
-Here are some example predictions made by the trained ResNet50 model on unseen test images. The model correctly identifies various objects, though it occasionally confuses visually similar categories (e.g., Bird vs. Frog).
-
-![Project Banner](image.png)
-
+![Sample Predictions](./reports/sample_predictions.png)
 
 ## 📌 Project Overview
 Transitioning from the grayscale simplicity of Fashion MNIST, this project tackles the **CIFAR-10** dataset—a benchmark in computer vision consisting of 60,000 $32 \times 32$ color images across 10 mutually exclusive classes.
