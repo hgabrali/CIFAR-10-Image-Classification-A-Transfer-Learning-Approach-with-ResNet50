@@ -1,6 +1,9 @@
 # CIFAR-10 Image Classification: A Transfer Learning Approach with ResNet50
 
-![Project Banner](./reports/image-1.png)
+# Sample Model Predictions
+Here are some example predictions made by the trained ResNet50 model on unseen test images. The model correctly identifies various objects, though it occasionally confuses visually similar categories (e.g., Bird vs. Frog).
+
+![Project Banner](image.png)
 
 
 ## 📌 Project Overview
