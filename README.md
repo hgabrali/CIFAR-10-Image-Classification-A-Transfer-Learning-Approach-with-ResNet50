@@ -1,10 +1,7 @@
 # CIFAR-10 Image Classification: A Transfer Learning Approach with ResNet50
 
-<<<<<<< HEAD
-![Project Banner](./reports/header_image.png)
-=======
+![Project Banner](./reports/image-1.png)
 
->>>>>>> 7dafdeaea9f3b19127378420b8993db70e180575
 
 ## 📌 Project Overview
 Transitioning from the grayscale simplicity of Fashion MNIST, this project tackles the **CIFAR-10** dataset—a benchmark in computer vision consisting of 60,000 $32 \times 32$ color images across 10 mutually exclusive classes.
