@@ -1,5 +1,12 @@
 # CIFAR-10 Computer Vision Project: Transfer Learning with ResNet50
 
+
+<img width="1112" height="624" alt="image" src="https://github.com/user-attachments/assets/4aa7a7c8-8974-4238-b1cf-ed673c4a2416" />
+
+
+
+
+
 ## Project Scope
 The goal of this project is to perform a 10-class classification task on the **CIFAR-10 dataset**, which consists of 60,000 $32 \times 32$ color images. Unlike the grayscale Fashion MNIST, this dataset introduces complexity through RGB channels and object variety.
 
